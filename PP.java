@@ -1,6 +1,9 @@
+public class PP extends Payment {
 
-import javax.sound.sampled.SourceDataLine;
+    @Override
 
-public class PP {
-    SourceDataLine
+     void makepayment(double payment)
+    {
+        System.out.println("payment of "+payment+" was made by paypal ");
+    }
 }
