@@ -1,0 +1,3 @@
+public CreditCard extends Payment {
+    
+}
